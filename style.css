@@ -7,7 +7,20 @@
     width: 100%;
     height: 3em;
     background-color: #ac0f0f;
-    padding-top: 1em;
+    padding-top: 1.5em;
     padding-left: 30%;
     padding-right: 70%;
+    font-size: 1.5em;
+}
+
+form {
+    margin: 20px;
+    padding: 10px;
+}
+
+button {
+    margin: 30px;
+    padding: 5px;
+    border: 2px solid #222222;
+    border-radius: 10px;
 }

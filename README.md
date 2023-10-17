@@ -32,8 +32,13 @@ Due Oct 20.
 
 
 
+
 # Egne notater:
 
 - Legger først opp HTML element i samme stil som vi gikk igjennom i undervisning på manndag(16.10.23), prøver å holde semantisk HTML i tankene, har også søkt litt på nett for å finne inspirasjon fra andre enhets konverterere.
 - Starter på litt simpel css til header/banner og font.
 - Etter å ha navngitt id'er i html elementer, meget lite kreativt da jeg brukte samme navn som i undervisningen, kan jeg hente elementene inn i js og begynne på js koden.
+- Dukker opp error i Console ang "incorrect use of label"...
+- Kodet videre i js, i henhold til slik vi har blitt undervist og slik jeg vet at det skal fungere, men koden knakk og button er blitt til text, må være en feil et eller annet sted, trolig en skrivefeil.
+- Fant skrivefeilen, den satt i selve button elementet. Men ser at js ikke gjør som den skal enda, så da må jeg fortsatt gå over koden for å se etter skrivefeil eller andre mangler. 
+- Tar en liten pause og håper jeg finner problemet fort etterpå.

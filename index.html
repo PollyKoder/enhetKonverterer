@@ -23,13 +23,17 @@
                 <option value="km">KM</option>
             </select>
 
+            <label for="toUnit">To</label>
             <select name="toUnit" id="toValueID">
                 <option value="cm">CM</option>
                 <option value="m">M</option>
                 <option value="km">KM</option>     
             </select>
         </form>
-        <button>Konverter</button>
+
+        <button onclick="unitConverter()">Konverter</button>
+
+        <p id="displayValueID"></p>
     </main>
     
 </body>
