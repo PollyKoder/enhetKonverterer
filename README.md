@@ -36,4 +36,4 @@ Due Oct 20.
 
 - Legger først opp HTML element i samme stil som vi gikk igjennom i undervisning på manndag(16.10.23), prøver å holde semantisk HTML i tankene, har også søkt litt på nett for å finne inspirasjon fra andre enhets konverterere.
 - Starter på litt simpel css til header/banner og font.
-- 
+- Etter å ha navngitt id'er i html elementer, meget lite kreativt da jeg brukte samme navn som i undervisningen, kan jeg hente elementene inn i js og begynne på js koden.
