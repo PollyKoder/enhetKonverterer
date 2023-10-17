@@ -4,9 +4,9 @@ function unitConverter() {
     console.log(userInput);
     const  fromValue = document.querySelector("#fromValueID").value;
     console.log(fromValue);
-    const toValue = document.querySelector("#toValue").value;
+    const toValue = document.querySelector("#toValueID").value;
     console.log(toValue);
-    const displayValue = document.querySelector("#displayValueID").value;
+    const displayValue = document.querySelector("#displayValueID");
     console.log(displayValue);
 
     let result;
