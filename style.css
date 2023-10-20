@@ -3,6 +3,12 @@
     font-family: monospace;
 }
 
+body {
+    background-image: linear-gradient(#b9b9b9, #888888, #794646, #888888, #b9b9b9);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 .bannerDiv {
     max-width: 100vw;
     height: 3em;
@@ -14,8 +20,11 @@
 }
 
 form {
-    margin: 30px;
-    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 35px;
+    padding: 30px;
+    font-size: 20px;
 }
 
 .divUnits {
@@ -24,9 +33,18 @@ form {
 
 button {
     margin: 30px;
-    padding: 5px;
+    padding: 10px;
     border: 2px solid #222222;
     border-radius: 10px;
+    font-size: 20px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
 }
 
 
@@ -41,8 +59,13 @@ button {
 
     .button {
         text-align: center;
-        width: 140px;
         margin-left: auto;
         margin-right: auto;
+        font-size: 20px;
     }
 }
+
+/*Koden bare knekker når jeg prøver å justere css fra mobil til desktop display, eneste som endrer seg 
+riktig er banner'et...
+Kan gjøre koden på nytt hvor jeg da lager utgangspunktet i desktop og justerer css via media-query til 
+tablet og mobil display..*/
