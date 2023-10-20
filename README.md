@@ -48,4 +48,4 @@ Due Oct 20.
 - Fant en relativt simpel metode jeg kunne bruke i js slik at det dukker opp et pop-up vindu som en error når man prøver å konvertere til og fra samme enheter.
 - Sliter med an button ikke reagerer slik jeg vil at den skal når jeg prøver å justere css til å passe laptop skjerm. Tenker jeg prøver å legge button i en div, for å se om det gjør det lettere.
 - Ser ut til at css'en fungerer bedre etter jeg la button i en div, men nå er problemet at alt er tilpasset til laptop... Vil si jeg syns det er lettere å justere responsiv design med laptop som utgangspunkt for så å endre på css med Media query slik at siden passer til andre skjermstørrelser.
-- Jeg syns den ser litt merkelig ut når den vises på laptop skjerm, men til mobilt display ser det greit ut.
+- Jeg syns den ser litt merkelig ut når den vises på laptop skjerm, men til mobilt display ser det greit ut. Jaja, den fungerer slik den skal i alle fall, enda det er irriterende at jeg ikke får css til å slik jeg ønsker.
