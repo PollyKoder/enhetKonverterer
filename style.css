@@ -68,4 +68,5 @@ p {
 /*Koden bare knekker når jeg prøver å justere css fra mobil til desktop display, eneste som endrer seg 
 riktig er banner'et...
 Kan gjøre koden på nytt hvor jeg da lager utgangspunktet i desktop og justerer css via media-query til 
-tablet og mobil display..*/
+tablet og mobil display...
+Ser også at koden knekker sammen hvis den vises i 4k display.*/
