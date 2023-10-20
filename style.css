@@ -4,7 +4,7 @@
 }
 
 .bannerDiv {
-    width: 100%;
+    max-width: 100vw;
     height: 3em;
     background-color: #ac0f0f;
     padding-top: 1.5em;
@@ -14,8 +14,12 @@
 }
 
 form {
-    margin: 20px;
+    margin: 30px;
     padding: 10px;
+}
+
+.divUnits {
+    margin-top: 20px;
 }
 
 button {
@@ -23,4 +27,22 @@ button {
     padding: 5px;
     border: 2px solid #222222;
     border-radius: 10px;
+}
+
+
+/*responsive to Laptop */
+@media (max-width: 1440px) {
+    form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .button {
+        text-align: center;
+        width: 140px;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

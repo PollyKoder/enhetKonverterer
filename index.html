@@ -9,29 +9,35 @@
 </head>
 <body>
     <header>
+        <!-- banner: litt for pversiktelighet for "besøkende" og litt til dekor av siden -->
         <div class="bannerDiv">Målenhet Konverterer</div>
     </header>
     <main>
         <form>
             <label for="converter"></label>
             <input type="number" name="converter" id="userInputID"/>
+            
+            <!-- legger en div her for å enkelt kunne justere hvor valg av enheter vises i nettleser, 
+            slik at siden ser mer ryddig ut -->
+            <div class="divUnits">
+                <label for="fromUnit">From</label>
+                <select name="fromUnit" id="fromValueID">
+                    <option value="cm">CM</option>
+                    <option value="m">M</option>
+                    <option value="km">KM</option>
+                </select>
 
-            <label for="fromUnit">From</label>
-            <select name="fromUnit" id="fromValueID">
-                <option value="cm">CM</option>
-                <option value="m">M</option>
-                <option value="km">KM</option>
+                <label for="toUnit">To</label>
+                <select name="toUnit" id="toValueID">
+                    <option value="cm">CM</option>
+                    <option value="m">M</option>
+                    <option value="km">KM</option>     
             </select>
-
-            <label for="toUnit">To</label>
-            <select name="toUnit" id="toValueID">
-                <option value="cm">CM</option>
-                <option value="m">M</option>
-                <option value="km">KM</option>     
-            </select>
+            </div>
         </form>
-
-        <button onclick="unitConverter()">Konverter</button>
+        <div class="button">
+            <button onclick="unitConverter()">Konverter</button>
+        </div>
 
         <p id="displayValueID"></p>
     </main>
